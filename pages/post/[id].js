@@ -16,10 +16,10 @@ const PostView = () => {
   const router = useRouter()
   const { selectedPost } = useContext(RedditContext)
 
-  useEffect (() => {
-    if (selectedPost === null)
-      router.push('/')
-  },)
+  // useEffect (() => {
+  //   if (selectedPost === null)
+  //     router.push('/')
+  // },)
   
   return (
     <div className={style.wrapper}>
