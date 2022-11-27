@@ -19,7 +19,7 @@ const PostView = () => {
   useEffect (() => {
     if (selectedPost === null)
       router.push('/')
-  }, [])
+  },)
   
   return (
     <div className={style.wrapper}>

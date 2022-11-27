@@ -60,7 +60,7 @@ const Home: NextPage = () => {
   )
 }
 
-const HomePage = ({ myPosts }) => {
+const HomePage = ({ myPosts }: { myPosts: any }) => {
   return (
     <div className={style.wrapper}>
       <Header />

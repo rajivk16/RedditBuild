@@ -32,7 +32,7 @@ const About = () => {
           <p>r/rajivkulkarni</p>
         </div>
         <p className={style.aboutContent}>
-          Hi, I'm Rajiv Kulkarni, and I graduated from Fergusson College in 2021 with a degree in Computer Science. My interests are in Front End Engineering, and I love to create beautiful and performant products with delightful user experiences.
+          Hi, Im Rajiv Kulkarni, and I graduated from Fergusson College in 2021 with a degree in Computer Science. My interests are in Front End Engineering, and I love to create beautiful and performant products with delightful user experiences.
         </p>
 
         <div className={style.statsWrapper}>
