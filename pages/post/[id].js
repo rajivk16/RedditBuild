@@ -20,6 +20,12 @@ const PostView = () => {
   //   if (selectedPost === null)
   //     router.push('/')
   // },)
+
+  if (!selectedPost) {
+    // Handle the case where selectedPost is null or undefined.
+    // This could be returning a loading spinner, a default view, or redirecting the user.
+    return <div>Loading...</div>
+  }
   
   return (
     <div className={style.wrapper}>
